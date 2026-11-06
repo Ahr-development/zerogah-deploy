@@ -1,0 +1,50 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/1tq6ppe__m8m-.js"
+3:I[39756,["$2"],"default"]
+4:I[37457,["$2"],"default"]
+b:I[97367,["$2"],"OutletBoundary"]
+c:"$Sreact.suspense"
+f:"ViewportBoundary"
+10:I[97367,["$2"],"$f"]
+12:"MetadataBoundary"
+13:I[97367,["$2"],"$12"]
+16:I[68027,[],"default",1]
+:HL["/_next/static/chunks/06mrsg3pkc58_.css","style"]
+5:X
+8:X
+e:X
+9:[["children",{"s":"__PAGE__","h":514,"d":{"r":["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/_next/static/chunks/04ke_olrpsmkb.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],"p":true,"v":"$e"}}]]
+6:[["children",{"s":{"n":"lang","t":"d","k":"en","s":[]},"h":530,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/06mrsg3pkc58_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/3sn2uge-ggxu6.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/38edi7qf_gia7.js","async":true,"nonce":"$undefined"}]],"$L7"]}],"p":true,"v":"$8"},"c":"$Q9"}]]
+15:X
+17:X
+18:X
+0:{"P":null,"c":["","en"],"q":"","i":false,"t":{"t":{"s":"","h":530,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":true,"v":"$5"},"c":"$Q6"},"h":{"r":["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","$L13",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$c",null,{"name":"Next.Metadata","children":"$L14"}]}],null]}],null]}],"p":true,"v":"$15"}},"m":"$undefined","G":["$16",[]],"S":true,"r":"$17","s":"$18","a":"$@19","l":"$undefined","p":"$undefined","d":"$undefined","b":"RnKG3x8i_lUPs3Gf851EE","u":"$@1a"}
+1b:"/_next/static/chunks/3sn2uge-ggxu6.js"
+1c:"/_next/static/chunks/38edi7qf_gia7.js"
+1d:I[79520,["$1b","$1c"],""]
+1e:I[86605,["$1b","$1c"],"default"]
+1f:"LanguageProvider"
+20:I[83773,["$1b","$1c"],"$1f"]
+:HL["https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap","style"]
+5:C
+18:300
+7:["$","html",null,{"lang":"en","dir":"rtl","className":"h-full antialiased","children":[["$","head",null,{"children":[["$","link",null,{"rel":"apple-touch-icon","sizes":"180x180","href":"/zerogah-favicon/apple-touch-icon.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"32x32","href":"/zerogah-favicon/favicon-32x32.png"}],["$","link",null,{"rel":"icon","type":"image/png","sizes":"16x16","href":"/zerogah-favicon/favicon-16x16.png"}],["$","link",null,{"rel":"manifest","href":"/zerogah-favicon/site.webmanifest"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap","rel":"stylesheet"}],["$","$L1d",null,{"src":"https://unpkg.com/@phosphor-icons/web","strategy":"lazyOnload"}]]}],["$","body",null,{"className":"min-h-full flex flex-col antialiased selection:bg-zgGreen selection:text-gray-950","children":["$","$c",null,{"fallback":["$","div",null,{"children":"Loading language..."}],"children":["$","$L1e",null,{"children":["$","$L20",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}]
+21:"/_next/static/chunks/04ke_olrpsmkb.js"
+22:I[29670,["$1b","$1c","$21"],"default"]
+23:I[66101,["$1b","$1c","$21"],"default"]
+24:I[88181,["$1b","$1c","$21"],"default"]
+25:I[85255,["$1b","$1c","$21"],"default"]
+26:I[15453,["$1b","$1c","$21"],"default"]
+27:I[56373,["$1b","$1c","$21"],"default"]
+28:I[14206,["$1b","$1c","$21"],"default"]
+e:T4,langa:["$","main",null,{"dir":"ltr","children":[["$","$L22",null,{}],["$","$L23",null,{}],["$","$L24",null,{"articles":[{"id":"9404ae6b-db82-4018-9426-61a08ab929ea","seq_id":2,"art_code":"ART-002","slug":"unfulfilled-promises-therapy-resistance-passive-user","category_id":1,"category_title":"روابط","category_slug":"relationships","color_hex":"#f43f5e","sub_category_slug":"toxic-relationship-patterns","target_pattern":"abusive-or-controlling-dynamic","title":"مقاومت در برابر درمان و وعده‌های بی‌عمل: انفعال کاربر و بازگشت الگوهای مخرب","summary":"در این موارد، شریک از پذیرش درمان سر باز زده و با وعده‌های بهبود، رابطه را به الگوهای مخرب پیشین بازگردانده است. کاربر در مواجهه با این وضعیت، منفعل مانده و احساس غرق‌شدگی می‌کند.","cover_image":null,"gallery_images":[],"sample_size":2,"negative_rate":"100.00","source_filter":{},"stats_snapshot":{},"is_published":true,"created_at":"2026-11-01T08:21:20.775Z","updated_at":"2026-11-01T08:21:20.775Z"},{"id":"c214f87d-d63a-4e65-8e79-d40ff35551c9","seq_id":1,"art_code":"ART-001","slug":"first-date-investment-rejection-analysis","category_id":1,"category_title":"روابط","category_slug":"relationships","color_hex":"#f43f5e","sub_category_slug":"first-date-rejection","target_pattern":"spending-on-first-date-followed-by-rejection","title":"سرمایه‌گذاری در قرار اول و پیامد عدم تناسب: تحلیل یک مورد داده‌ای","summary":"در این تحلیل موردی از دیتابیس «زیروگاه لب»، به بررسی پدیده سرمایه‌گذاری مالی در قرار اول آشنایی آنلاین و پیامد آن می‌پردازیم. با تمرکز بر یک تجربه ثبت‌شده که منجر به اعلام عدم تناسب توسط طرف مقابل شده است، مکانیسم‌های احتمالی پشت این الگو را کالبدشکافی می‌کنیم و راهکارهای داده‌محور برای بهینه‌سازی تعاملات اولیه ارائه می‌دهیم.","cover_image":null,"gallery_images":[],"sample_size":1,"negative_rate":"100.00","source_filter":{},"stats_snapshot":{},"is_published":true,"created_at":"2026-10-29T10:46:39.062Z","updated_at":"2026-10-29T10:46:39.062Z"}]}],["$","$L25",null,{}],["$","$L26",null,{"articles":[{"id":"9404ae6b-db82-4018-9426-61a08ab929ea","seq_id":2,"art_code":"ART-002","slug":"unfulfilled-promises-therapy-resistance-passive-user","category_id":1,"category_title":"روابط","category_slug":"relationships","color_hex":"#f43f5e","sub_category_slug":"toxic-relationship-patterns","target_pattern":"abusive-or-controlling-dynamic","title":"مقاومت در برابر درمان و وعده‌های بی‌عمل: انفعال کاربر و بازگشت الگوهای مخرب","summary":"در این موارد، شریک از پذیرش درمان سر باز زده و با وعده‌های بهبود، رابطه را به الگوهای مخرب پیشین بازگردانده است. کاربر در مواجهه با این وضعیت، منفعل مانده و احساس غرق‌شدگی می‌کند.","cover_image":null,"gallery_images":[],"sample_size":2,"negative_rate":"100.00","source_filter":{},"stats_snapshot":{},"is_published":true,"created_at":"2026-11-01T08:21:20.775Z","updated_at":"2026-11-01T08:21:20.775Z"}]}],["$","$L27",null,{}],["$","$L28",null,{}]]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+d:null
+14:[]
+18:C
+15:C
+17:C
+e:C
+8:C
+1a:false
+19:null

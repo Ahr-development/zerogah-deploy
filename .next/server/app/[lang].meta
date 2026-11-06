@@ -1,0 +1,36 @@
+{
+  "status": 200,
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/page"
+  },
+  "postponed": "2143:8[\"lang\"][1,{\"nextSegmentId\":1,\"rootFormatContext\":{\"insertionMode\":0,\"selectedValue\":null,\"tagScope\":0,\"viewTransition\":null},\"progressiveChunkSize\":12800,\"resumableState\":{\"idPrefix\":\"\",\"nextFormID\":0,\"streamingFormat\":0,\"instructions\":96,\"hasBody\":true,\"hasHtml\":true,\"unknownResources\":{},\"dnsResources\":{},\"connectResources\":{\"default\":{},\"anonymous\":{},\"credentials\":{}},\"imageResources\":{},\"styleResources\":{\"/_next/static/chunks/06mrsg3pkc58_.css\":null,\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap\":[]},\"scriptResources\":{\"/_next/static/chunks/05wjci380js-5.js\":null,\"/_next/static/chunks/18mt2xqy435yt.js\":null,\"/_next/static/chunks/3gjfgdn2oppok.js\":null,\"/_next/static/chunks/0kpe65nxzhx9s.js\":null,\"/_next/static/chunks/turbopack-3-ry682tkyiqk.js\":null,\"/_next/static/chunks/1tq6ppe__m8m-.js\":null,\"/_next/static/chunks/3sn2uge-ggxu6.js\":null,\"/_next/static/chunks/38edi7qf_gia7.js\":null},\"moduleUnknownResources\":{},\"moduleScriptResources\":{\"/_next/static/chunks/05wjci380js-5.js\":null}},\"replayNodes\":[[\"sl\",0,[[\"Context\",0,[[\"Context\",0,[[\"ServerInsertedHTMLProvider\",0,[[\"Context\",0,[[\"io\",0,[[\"aV\",0,[[\"az\",0,[[\"aq\",0,[[\"is\",0,[[\"Fragment\",0,[[\"Context\",2,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"aV\",0,[[\"az\",0,[[\"aq\",0,[[\"ai\",0,[[\"aa\",0,[[\"__next_root_layout_boundary__\",1,[[\"Fragment\",\"c\",[[null,1,[[\"Activity\",\"lang|d\",[[\"Context\",\"lang|d\",[[null,2,[[\"Fragment\",0,[[\"E\",0,[[\"D\",0,[[\"Fragment\",0,[[\"n\",0,[[\"Fragment\",0,[[\"G\",0,[[\"Fragment\",0,[[null,0,[[\"l\",0,[[\"x\",0,[[\"w\",0,[[\"F\",0,[[\"Context\",0,[[\"Fragment\",\"c\",[[\"html\",1,[[\"body\",1,[[\"Suspense\",0,[[null,0,[[\"U\",0,[[\"Context\",0,[],0]],null]],null]],null,[\"Suspense Fallback\",0,[],null],0]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],\"replaySlots\":null}]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",
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$lang/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49312,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/a31cbc0cf0b80e8250ed804f2128e111518cbf2370db2e743439364a0d523bf9/$/[lang]",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[lang]/page"
+    },
+    "isFallback": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "/[lang]/art/[slug]/page": "app/[lang]/art/[slug]/page.js",
+  "/[lang]/page": "app/[lang]/page.js",
+  "/[lang]/signin/page": "app/[lang]/signin/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js"
+}

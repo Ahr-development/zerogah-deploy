@@ -1,0 +1,7 @@
+{
+  "/[lang]/art/[slug]/page": "/[lang]/art/[slug]",
+  "/[lang]/page": "/[lang]",
+  "/[lang]/signin/page": "/[lang]/signin",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found"
+}
