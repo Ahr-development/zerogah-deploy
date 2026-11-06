@@ -1,7 +1,7 @@
-:HL["/_next/static/chunks/06mrsg3pkc58_.css","style"]
+:HL["/_next/static/chunks/1hcsr06g5fcm6.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap","style"]
 4:[["children",{"s":"__PAGE__","h":49314}]]
 3:[["children",{"s":{"n":"slug","t":"d","k":null,"s":[]},"h":49250,"c":"$Q4"}]]
 2:[["children",{"s":"art","h":49250,"c":"$Q3"}]]
 1:[["children",{"s":{"n":"lang","t":"d","k":null,"s":[]},"h":49266,"c":"$Q2"}]]
-0:{"b":"-vX4k2_R7MTxTCj1MhaNT","t":{"t":{"s":"","h":49234,"c":"$Q1"}}}
+0:{"b":"IPqR3Xi0Y05tLrIDpmdfc","t":{"t":{"s":"","h":49234,"c":"$Q1"}}}
