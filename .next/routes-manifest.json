@@ -97,6 +97,23 @@
       ]
     },
     {
+      "page": "/[lang]/dashboard",
+      "regex": "^/([^/]+?)/dashboard(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/dashboard(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/dashboard.segments/$d$lang/dashboard$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/dashboard\\.segments/\\$d\\$lang/dashboard(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
       "page": "/[lang]/signin",
       "regex": "^/([^/]+?)/signin(?:/)?$",
       "routeKeys": {

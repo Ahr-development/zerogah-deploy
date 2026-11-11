@@ -46,6 +46,25 @@
       }
     }
   },
+  "/[lang]/dashboard": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49312,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "/[lang]": {
     "hints": 49216,
     "slots": {

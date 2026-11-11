@@ -77,9 +77,9 @@
     "/en": {
       "renderingMode": "PARTIALLY_STATIC",
       "routeType": "page",
-      "response": "complete",
-      "compute": "static",
-      "htmlSize": 89861,
+      "response": "initial",
+      "compute": "resuming",
+      "htmlSize": 3474,
       "experimentalPPR": true,
       "experimentalBypassFor": [
         {
@@ -101,7 +101,42 @@
       "initialExpireSeconds": 31536000,
       "srcRoute": "/[lang]",
       "dataRoute": "/en.rsc",
-      "prefetchDataRoute": "/en.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/en/dashboard": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 14707,
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight).*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/dashboard",
+      "dataRoute": "/en/dashboard.rsc",
+      "prefetchDataRoute": "/en/dashboard.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -116,7 +151,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 16424,
+      "htmlSize": 16682,
       "experimentalPPR": true,
       "experimentalBypassFor": [
         {
@@ -150,9 +185,9 @@
     "/fa": {
       "renderingMode": "PARTIALLY_STATIC",
       "routeType": "page",
-      "response": "complete",
-      "compute": "static",
-      "htmlSize": 91522,
+      "response": "initial",
+      "compute": "resuming",
+      "htmlSize": 3474,
       "experimentalPPR": true,
       "experimentalBypassFor": [
         {
@@ -174,7 +209,42 @@
       "initialExpireSeconds": 31536000,
       "srcRoute": "/[lang]",
       "dataRoute": "/fa.rsc",
-      "prefetchDataRoute": "/fa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/fa/dashboard": {
+      "renderingMode": "PARTIALLY_STATIC",
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 14754,
+      "experimentalPPR": true,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight).*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/[lang]/dashboard",
+      "dataRoute": "/fa/dashboard.rsc",
+      "prefetchDataRoute": "/fa/dashboard.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -189,7 +259,7 @@
       "routeType": "page",
       "response": "complete",
       "compute": "static",
-      "htmlSize": 16424,
+      "htmlSize": 16682,
       "experimentalPPR": true,
       "experimentalBypassFor": [
         {
@@ -416,6 +486,59 @@
         }
       ],
       "dataRouteRegex": "^/([^/]+?)/art/([^/]+?)\\.rsc$",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/[lang]/dashboard": {
+      "experimentalPPR": true,
+      "remainingPrerenderableParams": [
+        {
+          "paramName": "lang",
+          "paramType": "dynamic"
+        }
+      ],
+      "throwOnEmptyStaticShell": false,
+      "renderingMode": "PARTIALLY_STATIC",
+      "routeType": "page",
+      "response": "empty",
+      "compute": "blocking",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        },
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": ".*(?:[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight).*"
+        }
+      ],
+      "routeRegex": "^/([^/]+?)/dashboard(?:/)?$",
+      "dataRoute": "/[lang]/dashboard.rsc",
+      "fallback": null,
+      "fallbackRootParams": [
+        "lang"
+      ],
+      "fallbackSourceRoute": "/[lang]/dashboard",
+      "fallbackRouteParams": [
+        {
+          "paramName": "lang",
+          "paramType": "dynamic"
+        }
+      ],
+      "dataRouteRegex": "^/([^/]+?)/dashboard\\.rsc$",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",
