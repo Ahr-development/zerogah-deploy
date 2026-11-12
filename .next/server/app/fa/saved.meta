@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</1a.jpg>; rel=preload; as=\"image\", </2a.png>; rel=preload; as=\"image\", </3a.png>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/saved/layout,_N_T_/[lang]/saved/page,_N_T_/fa/saved"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$lang/saved/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49312,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/12f0048e2ab2e26788b5a6e5b457328065bc90ab35a938037c66ea06f410fddf/$/fa/saved",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[lang]/saved/page"
+    },
+    "isFallback": false
+  }
+}

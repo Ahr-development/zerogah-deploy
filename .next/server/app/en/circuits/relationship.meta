@@ -1,0 +1,46 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</1a.jpg>; rel=preload; as=\"image\", </2a.png>; rel=preload; as=\"image\", </3a.png>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/circuits/layout,_N_T_/[lang]/circuits/[slug]/layout,_N_T_/[lang]/circuits/[slug]/page,_N_T_/en/circuits/relationship"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$lang/circuits/$d$slug/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49248,
+                "slots": {
+                  "children": {
+                    "hints": 49312,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/52453dd178148e41e685398c5e9b1ca10be193284fa61c9ad62601c89e2044b9/$/en/circuits/relationship",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[lang]/circuits/[slug]/page"
+    },
+    "isFallback": false
+  }
+}

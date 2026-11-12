@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</1a.jpg>; rel=preload; as=\"image\", </2a.png>; rel=preload; as=\"image\", </3a.png>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/ai-engine/layout,_N_T_/[lang]/ai-engine/page,_N_T_/fa/ai-engine"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$lang/ai-engine/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49312,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/7a2f108898308f272ef88657954321136e479e28ac1e72c39d095aea1bab70c1/$/fa/ai-engine",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[lang]/ai-engine/page"
+    },
+    "isFallback": false
+  }
+}

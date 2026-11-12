@@ -1,8 +1,20 @@
 {
+  "/[lang]/about/page": "app/[lang]/about/page.js",
+  "/[lang]/ai-engine/page": "app/[lang]/ai-engine/page.js",
   "/[lang]/art/[slug]/page": "app/[lang]/art/[slug]/page.js",
+  "/[lang]/articles/page": "app/[lang]/articles/page.js",
+  "/[lang]/circuits/[slug]/page": "app/[lang]/circuits/[slug]/page.js",
+  "/[lang]/contact/page": "app/[lang]/contact/page.js",
   "/[lang]/dashboard/page": "app/[lang]/dashboard/page.js",
+  "/[lang]/dataset/page": "app/[lang]/dataset/page.js",
+  "/[lang]/explore/page": "app/[lang]/explore/page.js",
   "/[lang]/page": "app/[lang]/page.js",
+  "/[lang]/privacy/page": "app/[lang]/privacy/page.js",
+  "/[lang]/saved/page": "app/[lang]/saved/page.js",
   "/[lang]/signin/page": "app/[lang]/signin/page.js",
+  "/[lang]/submit/page": "app/[lang]/submit/page.js",
   "/_global-error/page": "app/_global-error/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
 }

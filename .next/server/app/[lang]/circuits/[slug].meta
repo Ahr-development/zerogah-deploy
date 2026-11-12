@@ -1,0 +1,47 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/chunks/2byauwrnt0j6c.css>; rel=preload; as=\"style\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/circuits/layout,_N_T_/[lang]/circuits/[slug]/layout,_N_T_/[lang]/circuits/[slug]/page"
+  },
+  "postponed": "1585:15[\"lang\",\"slug\"][0,{\"nextSegmentId\":0,\"rootFormatContext\":{\"insertionMode\":0,\"selectedValue\":null,\"tagScope\":0,\"viewTransition\":null},\"progressiveChunkSize\":12800,\"resumableState\":{\"idPrefix\":\"\",\"nextFormID\":0,\"streamingFormat\":0,\"bootstrapScriptContent\":\"(globalThis[\\\"TURBOPACK\\\"] || (globalThis[\\\"TURBOPACK\\\"] = [])).push({\\\"otherChunks\\\":[\\\"static/chunks/05wjci380js-5.js\\\",\\\"static/chunks/18mt2xqy435yt.js\\\",\\\"static/chunks/3gjfgdn2oppok.js\\\",\\\"static/chunks/0kpe65nxzhx9s.js\\\"],\\\"runtimeModuleIds\\\":[94553]});\",\"bootstrapScripts\":[{\"src\":\"/_next/static/chunks/05wjci380js-5.js\"}],\"instructions\":0,\"hasBody\":false,\"hasHtml\":false,\"unknownResources\":{\"font\":{}},\"dnsResources\":{},\"connectResources\":{\"default\":{},\"anonymous\":{},\"credentials\":{}},\"imageResources\":{},\"styleResources\":{\"/_next/static/chunks/2byauwrnt0j6c.css\":[]},\"scriptResources\":{},\"moduleUnknownResources\":{},\"moduleScriptResources\":{}},\"replayNodes\":[[\"sl\",0,[[\"Context\",0,[[\"Context\",0,[[\"ServerInsertedHTMLProvider\",0,[[\"Context\",0,[[\"io\",0,[[\"aV\",0,[[\"az\",0,[[\"aq\",0,[[\"is\",0,[[\"Fragment\",0,[[\"Context\",2,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"Context\",0,[[\"aV\",0,[[\"az\",0,[[\"aq\",0,[[\"ai\",0,[[\"aa\",0,[[\"ii\",\"/$d$lang/circuits/$d$slug/__PAGE__/_head\",[[\"Fragment\",\"h\",[[\"__next_metadata_boundary__\",2,[[\"div\",0,[[\"Suspense\",0,[],0,[\"Suspense Fallback\",0,[],null],0]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],null]],\"replaySlots\":-1}]eJx1VNtuEzEQ/ZVoHnhaE28uS7JVhEppQgpJ1KaQUvHitWd3nTr2YntzQ/l35E2LChJvozlnxmdu/gXOG4uQ/oIcPS+DMaAoKIuzXv8dx0Gvl1MxiMWwnwySfjKMKc9Et5+xXkxZj2U9pHzQwW4mRJe+6/UyEXI8SS0ghfH1/dUniEAwz4K7RCbQumAyztE5wo321ijClDI7wi0K1F4y5SAFb2uECLjRGrmXRkMKT4gVYUpunxGP2hOFuvAlpDCMX3n9oUJIgVWVkpyF+PbaGX3R4iWzDv2o9jkZhABrnCPGykJqYirUaElllOQHSMGxDT5j/1ItOlNbjv8jC+aDgPuyjlpxpzU321aHdpIWHaSdTtoftiaze4gAPSsghVX7B/QzMi9rf3y6+bw8SkqpuVn9vFy0158/6P3tD4AInt9mRSiRq9p5tJDC+1C5xRytfa1eG/LihAgc2m3D1oXU++DwVnJPvGXaVcZ64pDXVvoQumH78MqoG/e7CaX0oiU1V7XAZZ19NBsmtYMItswG8uKl5j153X5iqtB31yhxWuZ51Ho2Gq7QjlRBoOflyypACuYFNjutDBN/pQkDatDcNt3+Ay0vZ9eLu+lkOm/gCu1Geo+CnIcmGs3n1kg859LYUK3JjHfkPAdtpBa4D0JzE7ayoexdUGr8n0WkcIogMyJUj4ebo1jN148P8+N0XVGuv6kvVzfrrPutFlfTZHa1k4+TMf2+nCarmLrpJlZici0X2kk+GevH5TSZLXcymyjPHm7lYn29CzFiMqTfVzu5WF+6qb7bisnYfQ38h5lcrMfD/HY0aqbIfO0g7VAaQW1DB0vvK5e220e0pmAlYWIj9dvMeBIO6O3+cGyzSrZxX6GVqDm695x5LIw9jARy6aTRb5hSo3CDbxTTxShnoWKLW6bkebMTejpFwBkvwwdyigA1t4fKo/hgai0ubREu/XQ6/QYGmn0r",
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$lang/circuits/$d$slug/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49248,
+                "slots": {
+                  "children": {
+                    "hints": 49312,
+                    "slots": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/52453dd178148e41e685398c5e9b1ca10be193284fa61c9ad62601c89e2044b9/$/[lang]/circuits/[slug]",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[lang]/circuits/[slug]/page"
+    },
+    "isFallback": true
+  }
+}

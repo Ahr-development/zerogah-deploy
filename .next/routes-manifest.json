@@ -40,6 +40,40 @@
       ]
     },
     {
+      "page": "/[lang]/about",
+      "regex": "^/([^/]+?)/about(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/about(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/about.segments/$d$lang/about$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/about\\.segments/\\$d\\$lang/about(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
+      "page": "/[lang]/ai-engine",
+      "regex": "^/([^/]+?)/ai\\-engine(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/ai\\-engine(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/ai-engine.segments/$d$lang/ai-engine$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/ai\\-engine\\.segments/\\$d\\$lang/ai\\-engine(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
       "sourcePage": "/[lang]/art/[slug]",
       "page": "/en/art/[slug]",
       "regex": "^/en/art/([^/]+?)(?:/)?$",
@@ -97,6 +131,97 @@
       ]
     },
     {
+      "page": "/[lang]/articles",
+      "regex": "^/([^/]+?)/articles(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/articles(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/articles.segments/$d$lang/articles$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/articles\\.segments/\\$d\\$lang/articles(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
+      "sourcePage": "/[lang]/circuits/[slug]",
+      "page": "/en/circuits/[slug]",
+      "regex": "^/en/circuits/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/en/circuits/(?<nxtPslug>[^/]+?)(?:/)?$",
+      "skipInternalRouting": true,
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/en/circuits/[slug].segments/$d$lang/circuits/$d$slug$segment",
+          "source": "^/en/circuits/(?<nxtPslug>[^/]+?)\\.segments/\\$d\\$lang/circuits/\\$d\\$slug(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPslug": "nxtPslug"
+          }
+        }
+      ]
+    },
+    {
+      "sourcePage": "/[lang]/circuits/[slug]",
+      "page": "/fa/circuits/[slug]",
+      "regex": "^/fa/circuits/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/fa/circuits/(?<nxtPslug>[^/]+?)(?:/)?$",
+      "skipInternalRouting": true,
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/fa/circuits/[slug].segments/$d$lang/circuits/$d$slug$segment",
+          "source": "^/fa/circuits/(?<nxtPslug>[^/]+?)\\.segments/\\$d\\$lang/circuits/\\$d\\$slug(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPslug": "nxtPslug"
+          }
+        }
+      ]
+    },
+    {
+      "page": "/[lang]/circuits/[slug]",
+      "regex": "^/([^/]+?)/circuits/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang",
+        "nxtPslug": "nxtPslug"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/circuits/(?<nxtPslug>[^/]+?)(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/circuits/[slug].segments/$d$lang/circuits/$d$slug$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/circuits/(?<nxtPslug>[^/]+?)\\.segments/\\$d\\$lang/circuits/\\$d\\$slug(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang",
+            "nxtPslug": "nxtPslug"
+          }
+        }
+      ]
+    },
+    {
+      "page": "/[lang]/contact",
+      "regex": "^/([^/]+?)/contact(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/contact(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/contact.segments/$d$lang/contact$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/contact\\.segments/\\$d\\$lang/contact(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
       "page": "/[lang]/dashboard",
       "regex": "^/([^/]+?)/dashboard(?:/)?$",
       "routeKeys": {
@@ -107,6 +232,74 @@
         {
           "destination": "/[lang]/dashboard.segments/$d$lang/dashboard$segment",
           "source": "^/(?<nxtPlang>[^/]+?)/dashboard\\.segments/\\$d\\$lang/dashboard(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
+      "page": "/[lang]/dataset",
+      "regex": "^/([^/]+?)/dataset(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/dataset(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/dataset.segments/$d$lang/dataset$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/dataset\\.segments/\\$d\\$lang/dataset(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
+      "page": "/[lang]/explore",
+      "regex": "^/([^/]+?)/explore(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/explore(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/explore.segments/$d$lang/explore$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/explore\\.segments/\\$d\\$lang/explore(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
+      "page": "/[lang]/privacy",
+      "regex": "^/([^/]+?)/privacy(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/privacy(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/privacy.segments/$d$lang/privacy$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/privacy\\.segments/\\$d\\$lang/privacy(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
+    },
+    {
+      "page": "/[lang]/saved",
+      "regex": "^/([^/]+?)/saved(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/saved(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/saved.segments/$d$lang/saved$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/saved\\.segments/\\$d\\$lang/saved(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
           "routeKeys": {
             "nxtPlang": "nxtPlang"
           }
@@ -129,6 +322,23 @@
           }
         }
       ]
+    },
+    {
+      "page": "/[lang]/submit",
+      "regex": "^/([^/]+?)/submit(?:/)?$",
+      "routeKeys": {
+        "nxtPlang": "nxtPlang"
+      },
+      "namedRegex": "^/(?<nxtPlang>[^/]+?)/submit(?:/)?$",
+      "prefetchSegmentDataRoutes": [
+        {
+          "destination": "/[lang]/submit.segments/$d$lang/submit$segment",
+          "source": "^/(?<nxtPlang>[^/]+?)/submit\\.segments/\\$d\\$lang/submit(?<segment>/__PAGE__\\.segment\\.rsc|\\.segment\\.rsc)(?:/)?$",
+          "routeKeys": {
+            "nxtPlang": "nxtPlang"
+          }
+        }
+      ]
     }
   ],
   "staticRoutes": [
@@ -143,6 +353,18 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
     }
   ],
   "dataRoutes": [],

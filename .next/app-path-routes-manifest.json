@@ -1,8 +1,20 @@
 {
+  "/[lang]/about/page": "/[lang]/about",
+  "/[lang]/ai-engine/page": "/[lang]/ai-engine",
   "/[lang]/art/[slug]/page": "/[lang]/art/[slug]",
+  "/[lang]/articles/page": "/[lang]/articles",
+  "/[lang]/circuits/[slug]/page": "/[lang]/circuits/[slug]",
+  "/[lang]/contact/page": "/[lang]/contact",
   "/[lang]/dashboard/page": "/[lang]/dashboard",
+  "/[lang]/dataset/page": "/[lang]/dataset",
+  "/[lang]/explore/page": "/[lang]/explore",
   "/[lang]/page": "/[lang]",
+  "/[lang]/privacy/page": "/[lang]/privacy",
+  "/[lang]/saved/page": "/[lang]/saved",
   "/[lang]/signin/page": "/[lang]/signin",
+  "/[lang]/submit/page": "/[lang]/submit",
   "/_global-error/page": "/_global-error",
-  "/_not-found/page": "/_not-found"
+  "/_not-found/page": "/_not-found",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
 }

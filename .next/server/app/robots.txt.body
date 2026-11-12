@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /signin/
+Disallow: /api/
+
+Sitemap: https://lab.zerogah.com/sitemap.xml

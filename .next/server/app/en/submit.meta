@@ -1,0 +1,41 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</1a.jpg>; rel=preload; as=\"image\", </2a.png>; rel=preload; as=\"image\", </3a.png>; rel=preload; as=\"image\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/submit/layout,_N_T_/[lang]/submit/page,_N_T_/en/submit"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$lang/submit/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49248,
+            "slots": {
+              "children": {
+                "hints": 49312,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/73d43309e23916927fe65dbdb022a096ff82778e3c1b6a16568cf44207e91a17/$/en/submit",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/[lang]/submit/page"
+    },
+    "isFallback": false
+  }
+}
