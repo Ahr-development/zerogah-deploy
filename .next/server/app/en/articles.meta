@@ -1,7 +1,7 @@
 {
   "status": 200,
   "headers": {
-    "link": "</1a.jpg>; rel=preload; as=\"image\", </2a.png>; rel=preload; as=\"image\", </3a.png>; rel=preload; as=\"image\"",
+    "link": "</uploads/1794594918843-9518a6a8.jpg>; rel=preload; as=\"image\", </1a.jpg>; rel=preload; as=\"image\", </2a.png>; rel=preload; as=\"image\", </3a.png>; rel=preload; as=\"image\"",
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
     "x-next-cache-tags": "_N_T_/layout,_N_T_/[lang]/layout,_N_T_/[lang]/articles/layout,_N_T_/[lang]/articles/page,_N_T_/en/articles"
